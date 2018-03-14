@@ -9,9 +9,10 @@
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "pub":" git add --all &&  git commit -m \"Modified index.html\"  &&  git push origin master  && ng build --prod --base-href /Testapp/ && gh-pages -d dist"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^5.2.7",
     "@angular/cdk": "^5.2.4",
